@@ -55,8 +55,7 @@ Step 8: Create a dummy data for the object as we mentioned in the staff.model.js
    dummy data example: 
 
 
-     {
-  "staffId": "S12345",
+     {"staffId": "S12345",
   "firstName": "John",
   "lastName": "Doe",
   "specialization": "General Physician",
@@ -99,8 +98,7 @@ Step 8: Create a dummy data for the object as we mentioned in the staff.model.js
   },
   "profilePic": "profile.jpg",
   "documents": ["document1.pdf", "document2.pdf"],
-  "deleted": false
-}
+  "deleted": false}
 
 
 

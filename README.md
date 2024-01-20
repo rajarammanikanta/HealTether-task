@@ -15,7 +15,7 @@ Follow the steps below to set up and run the project on your local machine.
 
 # Step 1: Clone the repository:
 
-  command: git clone https://github.com/your-username/staff-management-project.git
+  command: git clone https://github.com/rajarammanikanta/HealTether-task.git
 
 # Step 2: Navigate to the project directory: 
   command: cd staff-management-project 

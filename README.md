@@ -53,6 +53,8 @@ Step 7: To validate data use postman API in that you have to use POST method and
 Step 8: Create a dummy data for the object as we mentioned in the staff.model.js file once dummy data is created you have to paste it in the body choose raw>>JSON(as type)   
    
    dummy data example: 
+
+
      {
   "staffId": "S12345",
   "firstName": "John",
@@ -99,6 +101,7 @@ Step 8: Create a dummy data for the object as we mentioned in the staff.model.js
   "documents": ["document1.pdf", "document2.pdf"],
   "deleted": false
 }
+
 
 
 Step 9: Once you click send button you can see "staff saved succesfully" messsage   

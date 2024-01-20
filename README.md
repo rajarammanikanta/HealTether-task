@@ -18,7 +18,7 @@ Follow the steps below to set up and run the project on your local machine.
   command: git clone https://github.com/rajarammanikanta/HealTether-task.git
 
 # Step 2: Navigate to the project directory: 
-  command: cd staff-management-project 
+  command: cd HealTether
 
 # Step 3: Install dependencies:   
    command: npm install  

@@ -13,45 +13,46 @@ Follow the steps below to set up and run the project on your local machine.
 
 ### Installation
 
-# Step 1: Clone the repository:
+Step 1: Clone the repository:
 
   command: git clone https://github.com/rajarammanikanta/HealTether-task.git
 
-# Step 2: Navigate to the project directory: 
+
+Step 2: Navigate to the project directory: 
   command: cd HealTether
 
-# Step 3: Install dependencies:   
+Step 3: Install dependencies:   
    command: npm install  
 
-# Step 4: create a new cluster in mangodb atlas and get a connection string 
-   # note: make sure that you need you install mangodb compass in that paste the connection string and connect to mangodb    
+Step 4: create a new cluster in mangodb atlas and get a connection string 
+   note: make sure that you need you install mangodb compass in that paste the connection string and connect to mangodb    
    string is look example:  mongodb+srv://<username>:<password>@ClusterName.tmuuqhb.mongodb.net/  
    
    after it successfully connected you have to paste the connection string with your usename and password in the given code as it present in index.js file  
 
-# code: 
-   mongoose.connect("connectionString", {
-    dbName: "databasename",
-      
-   useNewUrlParser: true,
-  useUnifiedTopology: true,
- 
-});
+        code: 
+        mongoose.connect("connectionString", {
+            dbName: "databasename",
+            
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        
+        });
 
- 
-# Step5: Now we have to run the code using command  
+        
+Step5: Now we have to run the code using command  
    command: node index.js    
 
 
-# Step6: once it is successfully done you can see the localhost url like  
+Step6: once it is successfully done you can see the localhost url like  
    example:  https://localhost:3000   
 
-# Step 7: To validate data use postman API in that you have to use POST method and paste the url   
+Step 7: To validate data use postman API in that you have to use POST method and paste the url   
    example:  https://localhost:3000/savestaff   
 
-# Step 8: Create a dummy data for the object as we mentioned in the staff.model.js file once dummy data is created you have to paste it in the body choose raw>>JSON(as type)   
+Step 8: Create a dummy data for the object as we mentioned in the staff.model.js file once dummy data is created you have to paste it in the body choose raw>>JSON(as type)   
    
-   # dummy data example: 
+   dummy data example: 
      {
   "staffId": "S12345",
   "firstName": "John",
@@ -100,7 +101,7 @@ Follow the steps below to set up and run the project on your local machine.
 }
 
 
-# Step 9: Once you click send button you can see "staff saved succesfully" messsage   
+Step 9: Once you click send button you can see "staff saved succesfully" messsage   
 
 
 

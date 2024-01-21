@@ -1,6 +1,4 @@
-# Staff Management Project
-
-This project provides a method to save staff information to MongoDB with server-side validation and data sanitization.
+# This project provides a method to save staff information to MongoDB with server-side validation and data sanitization.
 
 ## Getting Started
 
